@@ -1,0 +1,11 @@
+{
+    "id": 101,
+    "name": "Zodiac",
+    "description": "Zodiac, 2007 ABD yapımı David Fincher'ın yönettiği gizem gerilim filmi. 1960'lı yılların sonundan itibaren Amerika Birleşik Devletleri'nin batı sahillerinde seri cinayetler işleyen ve kendine Zodiac takma adını koyan katili yakalama öyküsüne dayanmaktadır.",
+    "director": "David Fincher",
+    "genre": "Gerilim/Gizem",
+    "imdbScore": "7.7",
+    "year": "2007",
+    "imageUrl": "zodiac",
+    "isFavorited": true,
+}

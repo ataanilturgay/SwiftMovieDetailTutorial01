@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="115" id="KGk-i7-Jjw" customClass="MovieInfosTableViewCell" customModule="SwiftTutorial01" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzN-B7-CeU">
+                        <rect key="frame" x="16" y="0.0" width="288" height="33.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xv7-lA-rxo">
+                        <rect key="frame" x="16" y="49.5" width="288" height="21.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TN9-0g-HTt">
+                        <rect key="frame" x="16" y="87" width="288" height="28"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Xv7-lA-rxo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="0op-Li-hU7"/>
+                    <constraint firstItem="TN9-0g-HTt" firstAttribute="top" secondItem="Xv7-lA-rxo" secondAttribute="bottom" constant="16" id="1c1-BR-lGH"/>
+                    <constraint firstItem="TN9-0g-HTt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="3O2-nO-Yhb"/>
+                    <constraint firstAttribute="bottom" secondItem="TN9-0g-HTt" secondAttribute="bottom" id="5XT-Zv-rVo"/>
+                    <constraint firstAttribute="trailing" secondItem="TN9-0g-HTt" secondAttribute="trailing" constant="16" id="LKD-1n-OQr"/>
+                    <constraint firstItem="Xv7-lA-rxo" firstAttribute="top" secondItem="hzN-B7-CeU" secondAttribute="bottom" constant="16" id="PzV-vH-TKG"/>
+                    <constraint firstAttribute="trailing" secondItem="Xv7-lA-rxo" secondAttribute="trailing" constant="16" id="ThL-rb-ieV"/>
+                    <constraint firstItem="hzN-B7-CeU" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="hmN-Vk-jMw"/>
+                    <constraint firstItem="hzN-B7-CeU" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mCU-GN-0Qx"/>
+                    <constraint firstAttribute="trailing" secondItem="hzN-B7-CeU" secondAttribute="trailing" constant="16" id="vvG-a8-ExE"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="movieDescLabel" destination="TN9-0g-HTt" id="7cH-PJ-rch"/>
+                <outlet property="movieInfosLabel" destination="Xv7-lA-rxo" id="Exg-cy-C9R"/>
+                <outlet property="movieNameLabel" destination="hzN-B7-CeU" id="ssj-ci-nkd"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="178.45982142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
